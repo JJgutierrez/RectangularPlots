@@ -7,7 +7,7 @@ using System.IO;
 
 namespace GardenRental
 {
-    class Program 
+    class Program
     {
         static void Main()
         {
@@ -20,6 +20,8 @@ namespace GardenRental
             mn.MFenceWriter();
             Fertilizer fr = new Fertilizer();
             fr.TotalFertilizer();
+            RotateRectangles rt = new RotateRectangles();
+            rt.Rotate(90);
 
         }
     }

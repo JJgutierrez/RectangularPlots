@@ -7,7 +7,7 @@ using System.IO;
 
 namespace GardenRental
 {
-    class MinimumFencing: Overlap
+    class MinimumFencing: XYValues
     {
         public int  MinimumFence(string a)
         {

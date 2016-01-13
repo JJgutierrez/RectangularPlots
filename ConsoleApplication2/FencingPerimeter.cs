@@ -7,7 +7,7 @@ using System.IO;
 
 namespace GardenRental
 {
-     class FencingPerimeter: Overlap
+     class FencingPerimeter: XYValues
     {
         public int Perimeter(string p)
         {

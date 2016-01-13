@@ -7,7 +7,7 @@ using System.IO;
 
 namespace GardenRental
 {
-    class Fertilizer:Overlap
+    class Fertilizer: XYValues
     {
         public int FertilizerArea(string b)
         {
