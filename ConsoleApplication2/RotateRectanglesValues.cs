@@ -9,18 +9,18 @@ using System.IO;
 
 namespace GardenRental
 {
-    class RotateRectangles: XYValues
+    class RotateRectanglesValues: XYValues
     {
         public  double  RotateX(int angle, string route)
         {
             double X = Math.Cos(angle) * ValueX(route) - Math.Sin(angle) * ValueY(route);
-            return X;
+            return Math.Round(X);
         }
 
         public double RotateY(int angle, string route)
         {
             double Y = Math.Sin(angle) * ValueX(route) + Math.Cos(angle) * ValueY(route);
-            return Y;
+            return Math.Round(Y);
         }
 
       

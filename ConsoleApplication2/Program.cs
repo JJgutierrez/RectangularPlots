@@ -7,10 +7,12 @@ using System.IO;
 
 namespace GardenRental
 {
-    class Program
+    class Program: XYValues
     {
+       
         static void Main()
         {
+            
             Overlap op = new Overlap();
             op.Plots();
             op.OverLappigPlots();
@@ -20,8 +22,11 @@ namespace GardenRental
             mn.MFenceWriter();
             Fertilizer fr = new Fertilizer();
             fr.TotalFertilizer();
-            RotateRectangles rt = new RotateRectangles();
-            rt.Rotate(90);
+            RoateWriter rt = new RoateWriter();
+            rt.writer();
+          
+
+
 
         }
     }
